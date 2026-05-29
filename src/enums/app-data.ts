@@ -249,6 +249,15 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
+            title: "ThreatLens AI for Velociraptor",
+            coverImagePath: AssetPaths.PROJECT_AI_VELOCIRAPTOR,
+            liveLink: AssetPaths.PROJECT_AI_VELOCIRAPTOR_PDF,
+            githubLink: "https://github.com/dhruvil-unisa/ai-velociraptor/",
+            description: "🤖 A cutting-edge AI-powered Velociraptor version built with the LLM integration using a custom MCP, prompt engineering, and fine tuning.",
+            techStack: ["Python", "Go", "Ollama", "llama.cpp"],
+            year: 2025,
+        },
+        {
             title: "Web-Based 3D IFC File Viewer",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
             liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
@@ -315,6 +324,7 @@ const FreelancingProjects: ProjectSection = {
             year: 2025
         },
         {
+            hidden: true, // this project is not visible in UI but can be added by changing this flag to true
             title: "Kiwi Finance",
             coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
             liveLink: "https://kiwifinance.com.au/",
@@ -352,16 +362,36 @@ const JobExperience: ExperienceSection = {
             orgName: "Acquire Conveyancing",
             positions: [
                 {
-                    positionName: "Conveyancing Assistant",
+                    positionName: "ICT Administrator / Conveyancing Assistant",
                     duration: "Apr 2024 - Present",
                     location: "Adelaide, SA",
                     locationType: "On-Site",
                     jobType: "Part-time",
                     workPoints: [
+                        "Managing internal IT Administration operations and technical support with AAD, Veeam backup and recovery, and configuration of internal NAS with Synology hardware. 🖥️🔧",
                         "Ensured secure management of sensitive data with top-notch IT support. 🔒",
                         "Streamlined property searches by liaising with government agencies. 🏡",
                         "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
                         "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://sognos.com.au/",
+            orgLogoPath: AssetPaths.WORK_SOGNOS_LOGO,
+            orgName: "Sognos Solutions",
+            positions: [
+                {
+                    positionName: "Junior Dynamics 365 Administrator",
+                    duration: "May 2025 - Oct 2025",
+                    location: "Sydney, NSW",
+                    locationType: "Remote",
+                    jobType: "Contract",
+                    workPoints: [
+                        "Developed and configured Canvas & Model-driven Apps, Power Automate flows, and Power BI dashboards, supporting integrations with Microsoft 365, Dynamics 365 CRM, and Dataverse using JavaScript, C# and .NET.",   
+                        "Worked with Dataverse and structured datasets to extract, analyse, and present insights to stakeholders.",
+                        "Assisted with testing and documentation, ensuring to deliver high-quality & efficient Power Platform solutions with business intelligence for Healthcare, Disability, Aged-care and Field services sectors.",
                     ]
                 }
             ]

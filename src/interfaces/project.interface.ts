@@ -7,6 +7,7 @@ export interface Project {
     githubLink?: string,
     liveLink?: string,
     branch?: string,
+    hidden?: boolean,
 }
 
 export interface ProjectSection {
