@@ -1,39 +1,62 @@
 export enum AssetPaths {
-    RESUME_IT = "Dhruvil_Rathod.pdf",
-    FEELING_PROUD_SVG = "assets/illustrations/FeelingProud.svg",
-    DIGITAL_SOLUTIONS_SVG = "assets/illustrations/DigitalSolutions.svg",
-    FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/FullStackDevelopment.svg",
-    CLOUD_INFRASTRUCTURE_SVG = "assets/illustrations/CouldInfrastructure.svg",
+
+    // =========================
+    // Resume
+    // =========================
+    RESUME_IT = "kirthikaponneswaran_resume.pdf",
+
+    // =========================
+    // Illustrations
+    // =========================
+    FEELING_PROUD_SVG = "assets/illustrations/UIdeveloper.svg",
+    DIGITAL_SOLUTIONS_SVG = "assets/illustrations/uidev.svg",
+    FULL_STACK_DEVELOPMENT_SVG = "assets/illustrations/female_fullstack_developer_white_bg.svg",
+    CLOUD_INFRASTRUCTURE_SVG = "assets/illustrations/female_fullstack_database_cloud_backend_ui.svg",
     UI_UX_DESIGN_SVG = "assets/illustrations/UIUXDesign.svg",
-    PROJECTS_COVER = "assets/illustrations/ProjectsCover.svg",
-    PROJECT_ACQUIRE_CONVEYANCING = "assets/projects-images/acquire-conveyancing.png",
-    PROJECT_ANGULAR_MASTER_PORTFOLIO = "assets/projects-images/angular-master-portfolio.png",
-    PROJECT_ANGULAR_NEST_DOCKER = "assets/projects-images/angular-nest-docker.png",
-    PROJECT_CUSTOM_DROPDOWN = "assets/projects-images/custom-dropdown.png",
-    PROJECT_HMS_APP = "assets/projects-images/hms-app.png",
-    PROJECT_KIWI_FINANCE = "assets/projects-images/kiwi-finance.png",
-    PROJECT_LMS_APP = "assets/projects-images/lms-app.png",
-    PROJECT_MUSIC_PLAYER = "assets/projects-images/music-player.png",
-    PROJECT_RAS_FINANCE = "assets/projects-images/ras-finance.png",
-    PROJECT_SA_TILING = "assets/projects-images/sa-tiling.png",
-    PROJECT_THREEJS_IFC_VIEWER = "assets/projects-images/threejs-ifc-viewer.png",
-    PROJECT_AI_VELOCIRAPTOR = "assets/projects-images/velociraptor.png",
-    PROJECT_AI_VELOCIRAPTOR_PDF = "AI_Velociraptor_Poster.pdf",
-    EXPERIENCE_COVER = "assets/illustrations/ExperienceCover.svg",
-    WORK_ACQUIRE_LOGO = "assets/experience-images/acquire-logo.png",
-    WORK_ASITE_LOGO = "assets/experience-images/asite-logo.png",
-    WORK_KIWI_LOGO = "assets/experience-images/kiwi-logo.png",
-    WORK_SA_TILING_LOGO = "assets/experience-images/sa-tiling-logo.png",
-    WORK_RAS_LOGO = "assets/experience-images/ras-logo.png",
-    WORK_WORKXMATE_LOGO = "assets/experience-images/workxmate-logo.png",
-    WORK_ADVENT_OF_CODE_LOGO = "assets/experience-images/advent-of-code-logo.jpeg",
-    WORK_SOGNOS_LOGO = "assets/experience-images/sognos-logo.jpg",
+
+    PROJECTS_COVER = "assets/illustrations/female_projects_cover_light_pink(1).svg",
+    EXPERIENCE_COVER = "assets/illustrations/female_experience_cover.svg",
     EDUCATION_COVER = "assets/illustrations/EducationCover.svg",
-    EDUCATION_GTU_LOGO = "assets/education-images/gtu-logo.png",
-    EDUCATION_UNISA_LOGO = "assets/education-images/unisa-logo.png",
-    ACHIEVEMENT_COVER = "assets/illustrations/AchievementCover.svg",
-    ACHIEVEMENT_AOC_PIC = "assets/achievement-images/advent-of-code-finished.png",
-    ACHIEVEMENT_CPC_RSP_WIN_PIC = "assets/achievement-images/cpc-rsp-win.jpg",
-    ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC = "assets/achievement-images/unisa-chancellors-letter-of-commandation-2024.png",
+    ACHIEVEMENT_COVER = "assets/illustrations/female_achievements_cover_light_red(1).svg",
+
+    // =========================
+    // Project Images
+    // =========================
+    PROJECT_TITAN_ERP = "assets/projects-images/titanerp.png",
+    PROJECT_DUBAI_CASTLE = "assets/projects-images/castledubai.png",
+    PROJECT_CHESS_PLATFORM = "assets/projects-images/chess-platform.png",
+    PROJECT_SIGARAM64 = "assets/projects-images/sigaram64.png",
+    PROJECT_RESTAURANT_BOOKING = "assets/projects-images/restaurentwebsite.png",
+    PROJECT_PORTFOLIO = "assets/projects-images/portfolio.png",
+
+    // =========================
+    // Experience Logos
+    // =========================
+    WORK_EASYDESIGN_LOGO = "assets/experience-images/edslogo.png",
+    WORK_MACHENN_LOGO = "assets/experience-images/machennlogo.png",
+    WORK_BRAINERY_LOGO = "assets/experience-images/brainerylogo.png",
+    WORK_FREELANCE_LOGO = "assets/experience-images/freelancerlogo.svg",
+
+    // =========================
+    // Education
+    // =========================
+    EDUCATION_ANNA_UNIVERSITY_LOGO = "assets/education-images/annauniversity.png",
+
+    // =========================
+    // Achievement Images
+    // =========================
+    ACHIEVEMENT_TITAN = "assets/achievement-images/titan.png",
+    ACHIEVEMENT_CHESS = "assets/achievement-images/chess-platform.png",
+    ACHIEVEMENT_SIGARAM = "assets/achievement-images/sigaram64.png",
+    ACHIEVEMENT_DJANGO = "assets/achievement-images/django.png",
+    ACHIEVEMENT_ENTERPRISE = "assets/achievement-images/enterprise.png",
+    ACHIEVEMENT_UAE = "assets/achievement-images/uae-client.png",
+
+    // =========================
+    // Simple Icons
+    // =========================
     SIMPLE_ICONS = "assets/simple-icons",
+
+
+
 }

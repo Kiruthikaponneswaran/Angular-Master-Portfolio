@@ -7,222 +7,234 @@ import { AssetPaths } from "./asset-paths.enum";
 
 // Social media links to show
 const SocialMediaLinks: ExternalSite[] = [
-    {
-        name: "Github",
-        link: "https://github.com/dhruvilrathod",
-        simpleIconName: "GitHub",
-        backgroundColor: "#181717",
-    },
-    {
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/dhruvilrathod/",
-        simpleIconName: "LinkedIn", // this icon is not available in simple icon v14
-        backgroundColor: "#0066c8", // manually checked
-    },
-    {
-        name: "LeetCode",
-        link: "https://leetcode.com/dhruvilrathod/",
-        simpleIconName: "LeetCode",
-        backgroundColor: "#FFA116",
-    },
-    {
-        name: "Gmail",
-        link: "mailto:thedhruvilrathod@gmail.com",
-        simpleIconName: "Gmail",
-        backgroundColor: "#EA4335",
-    },
-    {
-        name: "Instagram",
-        link: "https://www.instagram.com/dhruvil.rthd/",
-        simpleIconName: "Instagram",
-        backgroundColor: "#FF0069",
-    }
-]
+  {
+    name: "Github",
+    link: "https://github.com/Kiruthikaponneswaran/",
+    simpleIconName: "github",
+    backgroundColor: "#181717",
+  },
+  {
+    name: "LinkedIn",
+    link: "https://in.linkedin.com/in/kiruthika-ponneswaran-72b16422a",
+    simpleIconName: "linkedin",
+    backgroundColor: "#0066c8",
+  },
+  {
+    name: "Gmail",
+    link: "mailto:kiruthikaponneswaran410@gmail.com",
+    simpleIconName: "gmail",
+    backgroundColor: "#EA4335",
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/hey_babzz_",
+    simpleIconName: "instagram",
+    backgroundColor: "#FF0069",
+  }
+];
 
 // Fullstack skills
 const FullstackSkills: ExternalSite[] = [
-    {
-        name: "Angular",
-        link: "https://angular.dev/",
-        simpleIconName: "Angular",
-        backgroundColor: "#ea2848",
-    },
-    {
-        name: "HTML5",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        simpleIconName: "HTML5",
-        backgroundColor: "#E34F26",
-    },
-    {
-        name: "CSS3",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        simpleIconName: "CSS3",
-        backgroundColor: "#1572B6",
-    },
-    {
-        name: "Sass",
-        link: "https://sass-lang.com/",
-        simpleIconName: "Sass",
-        backgroundColor: "#CC6699",
-    },
-    {
-        name: "NodeJS",
-        link: "https://nodejs.org/",
-        simpleIconName: "Node.js",
-        backgroundColor: "#5FA04E",
-    },
-    {
-        name: "JavaScript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        simpleIconName: "JavaScript",
-        backgroundColor: "#F7DF1E",
-    },
-    {
-        name: "ExpressJS",
-        link: "https://expressjs.com/",
-        simpleIconName: "Express",
-        backgroundColor: "#000000",
-    },
-    {
-        name: "ThreeJS",
-        link: "https://threejs.org/",
-        simpleIconName: "Three.js",
-        backgroundColor: "#000000",
-    },
-    {
-        name: "Tailwind CSS",
-        link: "https://tailwindcss.com/",
-        simpleIconName: "Tailwind CSS",
-        backgroundColor: "#06B6D4",
-    },
-    {
-        name: "Bootstrap",
-        link: "https://getbootstrap.com/",
-        simpleIconName: "Bootstrap",
-        backgroundColor: "#7952B3",
-    },
-    {
-        name: "PrimeNG",
-        link: "https://primeng.org/",
-        simpleIconName: "PrimeNG",
-        backgroundColor: "#DD0031",
-    },
+  {
+    name: "Angular",
+    link: "https://angular.dev/",
+    simpleIconName: "angular",
+    backgroundColor: "#DD0031",
+  },
+  {
+    name: "React",
+    link: "https://react.dev/",
+    simpleIconName: "react",
+    backgroundColor: "#61DAFB",
+  },
+  {
+    name: "React Native",
+    link: "https://reactnative.dev/",
+    simpleIconName: "react",
+    backgroundColor: "#61DAFB",
+  },
+  {
+    name: "TypeScript",
+    link: "https://www.typescriptlang.org/",
+    simpleIconName: "typescript",
+    backgroundColor: "#3178C6",
+  },
+  {
+    name: "JavaScript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    simpleIconName: "javascript",
+    backgroundColor: "#F7DF1E",
+  },
+  {
+    name: "Python",
+    link: "https://www.python.org/",
+    simpleIconName: "python",
+    backgroundColor: "#3776AB",
+  },
+  {
+    name: "Django",
+    link: "https://www.djangoproject.com/",
+    simpleIconName: "django",
+    backgroundColor: "#092E20",
+  },
+  {
+    name: "Node.js",
+    link: "https://nodejs.org/",
+    simpleIconName: "nodedotjs",
+    backgroundColor: "#5FA04E",
+  },
+  {
+    name: "HTML5",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    simpleIconName: "html5",
+    backgroundColor: "#E34F26",
+  },
+  {
+    name: "CSS3",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    simpleIconName: "css3",
+    backgroundColor: "#1572B6",
+  },
+  {
+    name: "SCSS",
+    link: "https://sass-lang.com/",
+    simpleIconName: "sass",
+    backgroundColor: "#CC6699",
+  },
+  {
+    name: "Bootstrap",
+    link: "https://getbootstrap.com/",
+    simpleIconName: "bootstrap",
+    backgroundColor: "#7952B3",
+  },
+  {
+    name: "Tailwind CSS",
+    link: "https://tailwindcss.com/",
+    simpleIconName: "tailwindcss",
+    backgroundColor: "#06B6D4",
+  },
+  {
+    name: "Angular Material",
+    link: "https://material.angular.io/",
+    simpleIconName: "angular",
+    backgroundColor: "#009688",
+  },
 ];
-
-// Fullstack section
 const FullstackSection: SkillSection = {
-    sectionTitle: "Fullstack Development",
+    sectionTitle: "Frontend & Full Stack Development",
     imagePath: AssetPaths.FULL_STACK_DEVELOPMENT_SVG,
     skillLinks: FullstackSkills,
     skillsList: [
-        "Building responsive website front-end using Angular",
-        "Developing custom and interactive 3D websites",
-        "Creating application backend in Node, Express & NestJS",
-        "Managing data safely with PostgreSQL, MongoDB and OracleDB",
+        "Developing scalable enterprise web applications using Angular, React.js, and React Native.",
+        "Building responsive, pixel-perfect user interfaces with HTML5, CSS3, SCSS, Bootstrap, Tailwind CSS, and Angular Material.",
+        "Integrating REST APIs, third-party services, Firebase Authentication, and Chatbot solutions into business applications.",
+        "Developing backend services and web applications using Python, Django, Django REST Framework, Node.js, and MySQL.",
     ]
 }
 
-// Could skills
-const CloudSkills: ExternalSite[] = [
-    {
-        name: "GCP",
-        link: "https://cloud.google.com/",
-        simpleIconName: "Google Cloud",
-        backgroundColor: "#4285F4",
-    },
-    {
-        name: "AWS",
-        link: "https://aws.amazon.com/",
-        simpleIconName: "Amazon Web Services",
-        backgroundColor: "#232F3E",
-    },
-    {
-        name: "Firebase",
-        link: "https://firebase.google.com/",
-        simpleIconName: "Firebase",
-        backgroundColor: "#FFCA28",
-    },
-    {
-        name: "PostgreSQL",
-        link: "https://www.postgresql.org/",
-        simpleIconName: "PostgreSQL",
-        backgroundColor: "#336791",
-    },
-    {
-        name: "MongoDB",
-        link: "https://www.mongodb.com/",
-        simpleIconName: "MongoDB",
-        backgroundColor: "#47A248",
-    },
-    {
-        name: "Docker",
-        link: "https://www.docker.com/",
-        simpleIconName: "Docker",
-        backgroundColor: "#1488C6",
-    },
-    {
-        name: "Render",
-        link: "https://render.com/",
-        simpleIconName: "Render",
-        backgroundColor: "#000000",
-    },
-    {
-        name: "Heroku",
-        link: "https://www.heroku.com/",
-        simpleIconName: "Heroku",
-        backgroundColor: "#430098",
-    },
-];
+// Cloud / Backend & Dev Tools
 
-// Could section
+const CloudSkills: ExternalSite[] = [
+  {
+    name: "Firebase",
+    link: "https://firebase.google.com/",
+    simpleIconName: "firebase",
+    backgroundColor: "#FFCA28",
+  },
+  {
+    name: "MySQL",
+    link: "https://www.mysql.com/",
+    simpleIconName: "mysql",
+    backgroundColor: "#4479A1",
+  },
+  {
+    name: "Git",
+    link: "https://git-scm.com/",
+    simpleIconName: "git",
+    backgroundColor: "#F05032",
+  },
+  {
+    name: "GitHub",
+    link: "https://github.com/",
+    simpleIconName: "github",
+    backgroundColor: "#181717",
+  },
+  {
+    name: "NPM",
+    link: "https://www.npmjs.com/",
+    simpleIconName: "npm",
+    backgroundColor: "#CB3837",
+  },
+  {
+    name: "Yarn",
+    link: "https://yarnpkg.com/",
+    simpleIconName: "yarn",
+    backgroundColor: "#2C8EBB",
+  },
+  {
+    name: "Webpack",
+    link: "https://webpack.js.org/",
+    simpleIconName: "webpack",
+    backgroundColor: "#8DD6F9",
+  },
+  {
+    name: "Vite",
+    link: "https://vite.dev/",
+    simpleIconName: "vite",
+    backgroundColor: "#646CFF",
+  },
+];
+// Cloud / Backend & Dev Tools Section
 const CloudSection: SkillSection = {
-    sectionTitle: "Cloud Infra-Architecture",
+    sectionTitle: "Backend & Development Tools",
     imagePath: AssetPaths.CLOUD_INFRASTRUCTURE_SVG,
     skillLinks: CloudSkills,
     skillsList: [
-        "Experience working on multiple cloud platforms including GCP, AWS, FireBase, and Render",
-        "Hosting and maintaining websites on FireBase hosting and GoDaddy along with integration of databases",
-        "Setting up email triggers and Googlesheet integration for streamline client inquiry",
+        "Developing secure backend applications using Django, Django REST Framework, Node.js, and MySQL.",
+        "Integrating REST APIs, third-party services, ChatGPT API, and Firebase Authentication into enterprise and web applications.",
+        "Managing source code with Git & GitHub while following Agile development practices.",
+        "Building, debugging, and optimizing modern applications using Vite, Webpack, NPM, and Yarn.",
     ]
 }
 
-// Design skills
+// UI / Frontend Skills
+
 const DesignSkills: ExternalSite[] = [
-    {
-        name: "Adobe XD",
-        link: "https://adobexdplatform.com/",
-        simpleIconName: "Adobe XD",
-        backgroundColor: "#FF2BC2",
-    },
-    {
-        name: "Figma",
-        link: "https://figma.com/",
-        simpleIconName: "Figma",
-        backgroundColor: "#F24E1E",
-    },
-    {
-        name: "Adobe Illustrator",
-        link: "https://www.adobe.com/au/products/illustrator.html/",
-        simpleIconName: "Adobe Illustrator",
-        backgroundColor: "#FF7C00",
-    },
-    {
-        name: "Adobe Photoshop",
-        link: "https://www.adobe.com/products/photoshop.html/",
-        simpleIconName: "Adobe Photoshop",
-        backgroundColor: "#001e36",
-    },
+  {
+    name: "Figma",
+    link: "https://figma.com/",
+    simpleIconName: "figma",
+    backgroundColor: "#F24E1E",
+  },
+  {
+    name: "Angular Material",
+    link: "https://material.angular.io/",
+    simpleIconName: "angular",
+    backgroundColor: "#009688",
+  },
+  {
+    name: "Bootstrap",
+    link: "https://getbootstrap.com/",
+    simpleIconName: "bootstrap",
+    backgroundColor: "#7952B3",
+  },
+  {
+    name: "Tailwind CSS",
+    link: "https://tailwindcss.com/",
+    simpleIconName: "tailwindcss",
+    backgroundColor: "#06B6D4",
+  },
 ];
 
-// Design section
+// UI / UX Section
 const DesignSection: SkillSection = {
-    sectionTitle: "UI/UX Design",
+    sectionTitle: "UI / UX Development",
     imagePath: AssetPaths.UI_UX_DESIGN_SVG,
     skillLinks: DesignSkills,
     skillsList: [
-        "Designing highly attractive and responsive user interface for web applications",
-        "Customizing logo designs, creating visiting cards and virtual cards from scratch",
-        "Creating the flow of application functionalities to optimize user experience",
+        "Developing modern, responsive, and pixel-perfect user interfaces from Figma designs using Angular and React.",
+        "Building reusable UI components with Angular Material, Bootstrap, Tailwind CSS, and SCSS for scalable enterprise applications.",
+        "Enhancing user experience through responsive layouts, accessibility best practices, and performance optimization across desktop and mobile devices.",
     ]
 }
 
@@ -231,186 +243,178 @@ const DigitalSolutionSkills: ExternalSite[] = [
 
 ];
 
-// Design section
+// Enterprise Solutions Section
 const DigitalSolutionSection: SkillSection = {
-    sectionTitle: "Digital Solutions & Consultancy",
+    sectionTitle: "Enterprise Solutions & Business Applications",
     imagePath: AssetPaths.DIGITAL_SOLUTIONS_SVG,
     skillLinks: DigitalSolutionSkills,
     skillsList: [
-        "Streamlining business operations with tools like Jira, offering automated workflows, and data-driven insights.",
-        "Centralizing business data within secure, interconnected platforms to facilitate informed decision-making",
-        "Helping local businesses enable real-time communication and task coordination through MS Teams and Outlook",
+        "Developing and maintaining enterprise ERP applications for Accounts, Sales, Purchase, and Finance modules using Angular and REST APIs.",
+        "Integrating REST APIs, third-party services, and chatbot solutions to automate business workflows and improve operational efficiency.",
+        "Collaborating with cross-functional teams and international clients, including UAE-based projects, to deliver scalable, high-quality software solutions.",
     ]
 }
 
-// Personal projects
+// Personal Projects
 const PersonalProjects: ProjectSection = {
     sectionTitle: "My Projects",
-    sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
+    sectionSubtitle: "🚀 Enterprise applications, interactive platforms, and scalable web solutions built with modern technologies.",
     entities: [
         {
-            title: "ThreatLens AI for Velociraptor",
-            coverImagePath: AssetPaths.PROJECT_AI_VELOCIRAPTOR,
-            liveLink: AssetPaths.PROJECT_AI_VELOCIRAPTOR_PDF,
-            githubLink: "https://github.com/dhruvil-unisa/ai-velociraptor/",
-            description: "🤖 A cutting-edge AI-powered Velociraptor version built with the LLM integration using a custom MCP, prompt engineering, and fine tuning.",
-            techStack: ["Python", "Go", "Ollama", "llama.cpp"],
-            year: 2025,
+            title: "TITAN Enterprise ERP Platform",
+            coverImagePath: AssetPaths.PROJECT_TITAN_ERP,
+            description: "💼 Developed and maintained enterprise-scale ERP applications using Angular for Accounts, Sales, Purchase, and Finance modules. Integrated REST APIs, optimized workflows, and enhanced UI performance while collaborating with cross-functional teams and UAE-based clients.",
+            techStack: ["Angular", "TypeScript", "REST API", "SCSS", "Angular Material"],
+            year: 2026,
         },
         {
-            title: "Web-Based 3D IFC File Viewer",
-            coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
-            liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
-            githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
-            techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
-            year: 2022
+            title: "Chess Gaming Platform",
+            coverImagePath: AssetPaths.PROJECT_CHESS_PLATFORM,
+            liveLink: "https://www.allreal.io/",
+            description: "♟️ Developed an interactive chess platform with intelligent gameplay, chatbot integration, Firebase Authentication, and Stockfish Engine. Built modern React components to deliver a seamless learning experience for chess enthusiasts.",
+            techStack: ["React.js", "Vite", "Firebase", "ChatGPT API", "Stockfish Engine"],
+            year: 2024,
         },
         {
-            title: "Customizable Multi-Select Dropdown",
-            coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
-            githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
-            techStack: ["Angular", "TypeScript", "SCSS"],
+            title: "Sigaram64 Chess Learning Platform",
+            coverImagePath: AssetPaths.PROJECT_SIGARAM64,
+            liveLink: "https://sigaram64.com/",
+            description: "🏆 Contributed to the development of a modern chess learning platform for Grandmaster Surya Ganguly, implementing responsive UI components and interactive learning features using React.js.",
+            techStack: ["React.js", "JavaScript", "Firebase", "Responsive UI"],
+            year: 2024,
+        },
+        {
+            title: "Restaurant Booking System",
+            coverImagePath: AssetPaths.PROJECT_RESTAURANT_BOOKING,
+            description: "🍽️ Designed and developed a restaurant reservation system enabling customers to book tables, manage reservations, and browse menus. Built with Django following clean MVC architecture.",
+            techStack: ["Python", "Django", "MySQL", "HTML", "CSS"],
             year: 2023,
-            branch: "resource-tree-utility"
         },
         {
-            title: "Learning Management System",
-            coverImagePath: AssetPaths.PROJECT_LMS_APP,
-            githubLink: "https://github.com/dhruvilrathod/lms-asite",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
-            techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
-            year: 2023
-        },
-        {
-            title: "Angular + NestJS Boilerplate",
-            coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
-            githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
-            techStack: ["Angular", "NestJS", "NgINX", "Docker"],
-            year: 2023
-        },
-        {
-            title: "Hospital Management System Dashboard",
-            coverImagePath: AssetPaths.PROJECT_HMS_APP,
-            githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
-            techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
-            year: 2024
-        },
-        {
-            title: "Cross-Platform Music Player",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
-            year: 2023
+            title: "Personal Portfolio Website",
+            coverImagePath: AssetPaths.PROJECT_PORTFOLIO,
+            githubLink: "https://github.com/kiruthikaponneswaran",
+            description: "🌐 Designed and developed a modern developer portfolio showcasing professional experience, technical skills, and projects with responsive design and smooth user interactions.",
+            techStack: ["Angular", "TypeScript", "SCSS", "Responsive Design"],
+            year: 2026,
         }
     ]
 }
 
-// Freelancing projects
-const FreelancingProjects: ProjectSection = {
-    sectionTitle: "Freelancing",
-    sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
+// Professional Projects
+const ProfessionalProjects: ProjectSection = {
+    sectionTitle: "Professional Projects",
+    sectionSubtitle: "💼 Enterprise solutions and real-world applications developed for business clients and production environments.",
     entities: [
         {
-            title: "South Australia Tiling",
-            coverImagePath: AssetPaths.PROJECT_SA_TILING,
-            liveLink: "https://southaustraliatiling.com.au/",
-            description: "🚀 Built with SSR and SSG to showcase a South Australian tiling and bathroom renovation business, enhancing their online presence and visibility.",
-            techStack: ["Angular 19", "SSR/SSG", "NestJS", "Firebase"],
-            year: 2025
+            title: "TITAN Enterprise Platform",
+            coverImagePath: AssetPaths.PROJECT_TITAN_ERP,
+            description: "Developed and enhanced enterprise-scale business applications using Angular for Accounts, Sales, Purchase, and Finance modules. Integrated REST APIs, optimized UI performance, and collaborated with cross-functional teams to deliver scalable solutions.",
+            techStack: ["Angular", "TypeScript", "REST API", "SCSS", "Angular Material"],
+            year: 2026
         },
         {
-            hidden: true, // this project is not visible in UI but can be added by changing this flag to true
-            title: "Kiwi Finance",
-            coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
-            liveLink: "https://kiwifinance.com.au/",
-            description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
-            techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-            year: 2025
+            title: "Dubai Castle Support IT Solutions",
+            coverImagePath: AssetPaths.PROJECT_DUBAI_CASTLE,
+            description: "Provided application support, feature enhancements, bug fixes, and UI improvements for business applications serving UAE clients while ensuring smooth production operations.",
+            techStack: ["Angular", "TypeScript", "REST API", "SQL"],
+            year: 2026
         },
+        // {
+        //     title: "Chess Gaming Platform",
+        //     coverImagePath: AssetPaths.PROJECT_CHESS_PLATFORM,
+        //     liveLink: "https://www.allreal.io/",
+        //     description: "Built interactive frontend features for an online chess platform using React.js, integrating Firebase Authentication, ChatGPT API, and Stockfish Engine to create an engaging learning experience.",
+        //     techStack: ["React.js", "Vite", "Firebase", "ChatGPT API", "Stockfish Engine"],
+        //     year: 2024
+        // },
         {
-            title: "RAS Finance Website + CMS",
-            coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
-            liveLink: "https://rasfinance.com.au/",
-            description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
-            techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
-            year: 2024
-        },
-        {
-            title: "Acquire Conveyancing Website",
-            coverImagePath: AssetPaths.PROJECT_ACQUIRE_CONVEYANCING,
-            liveLink: "https://acquireconveyancing.com.au/",
-            description: "🏡 Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
-            techStack: ["Angular", "Tailwind", "Firebase"],
-            year: 2023
-        },
+  title: "Restaurant Website",
+
+  coverImagePath: AssetPaths.PROJECT_RESTAURANT_BOOKING,
+
+   description:
+    "Contributed to the development of a modern restaurant website for Gulf-based clients, focusing on responsive frontend development, restaurant menu presentation, online ordering, table booking, and an enhanced user experience across devices.",
+
+  techStack: [
+    "React.js",
+    "React Native",
+    "JavaScript",
+    "Firebase",
+    "Responsive UI"
+  ],
+
+  year: 2024
+}
     ]
 }
 
 
-// Job experience
+// Work Experience
 const JobExperience: ExperienceSection = {
     experienceSectionTitle: "Work Experience",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgLink: "https://www.easydesignsystems.com/",
+            orgLogoPath: AssetPaths.WORK_EASYDESIGN_LOGO,
+            orgName: "Easy Design Systems",
             positions: [
                 {
-                    positionName: "ICT Administrator / Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
+                    positionName: "Frontend Developer",
+                    duration: "Jun 2024 - Aug 2026",
+                    location: "Coimbatore, Tamil Nadu",
                     locationType: "On-Site",
-                    jobType: "Part-time",
-                    workPoints: [
-                        "Managing internal IT Administration operations and technical support with AAD, Veeam backup and recovery, and configuration of internal NAS with Synology hardware. 🖥️🔧",
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://sognos.com.au/",
-            orgLogoPath: AssetPaths.WORK_SOGNOS_LOGO,
-            orgName: "Sognos Solutions",
-            positions: [
-                {
-                    positionName: "Junior Dynamics 365 Administrator",
-                    duration: "May 2025 - Oct 2025",
-                    location: "Sydney, NSW",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Developed and configured Canvas & Model-driven Apps, Power Automate flows, and Power BI dashboards, supporting integrations with Microsoft 365, Dynamics 365 CRM, and Dataverse using JavaScript, C# and .NET.",   
-                        "Worked with Dataverse and structured datasets to extract, analyse, and present insights to stakeholders.",
-                        "Assisted with testing and documentation, ensuring to deliver high-quality & efficient Power Platform solutions with business intelligence for Healthcare, Disability, Aged-care and Field services sectors.",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://www.asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
-            positions: [
-                {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Developed and maintained enterprise-scale ERP applications on the TITAN platform using Angular and TypeScript.",
+                        "Designed and implemented business modules including Accounts, Sales, Purchase, and Finance for production environments.",
+                        "Integrated REST APIs and optimized UI performance to improve application responsiveness and workflow efficiency.",
+                        "Developed reusable Angular components, custom forms, Material UI components, and responsive interfaces following best practices.",
+                        "Collaborated closely with backend developers, QA engineers, and business analysts to deliver high-quality software solutions.",
+                        "Provided application support, feature enhancements, and issue resolution for UAE-based client projects including Dubai Castle Support IT Solutions.",
+                        "Participated in requirement discussions with overseas clients and translated business requirements into scalable frontend solutions.",
+                        "Worked in Agile development environments using Git for version control and continuous feature delivery."
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "https://www.allreal.io/",
+            orgLogoPath: AssetPaths.WORK_MACHENN_LOGO,
+            orgName: "Machenn Innovation",
+            positions: [
+                {
+                    positionName: "Web Developer",
+                    duration: "Nov 2023 - Feb 2024",
+                    location: "Coimbatore, Tamil Nadu",
+                    locationType: "On-Site",
+                    jobType: "Full-time",
+                    workPoints: [
+                        "Developed interactive frontend features for the Chess Gaming Platform using React.js and Vite.",
+                        "Integrated Firebase Authentication, ChatGPT API, and Stockfish Engine to deliver intelligent chess gameplay and personalized learning experiences.",
+                        "Built responsive user interfaces and reusable React components for seamless cross-device compatibility.",
+                        "Contributed to the Sigaram64 chess learning platform developed for Grandmaster Surya Ganguly.",
+                        "Collaborated with designers and backend developers to deliver high-performance web applications."
+                    ]
+                }
+            ]
+        },
+        {
+            orgLink: "",
+            orgLogoPath: AssetPaths.WORK_BRAINERY_LOGO,
+            orgName: "Brainery Spot Technology",
+            positions: [
+                {
+                    positionName: "Python Full Stack Developer Intern",
+                    duration: "Apr 2023 - Oct 2023",
+                    location: "Coimbatore, Tamil Nadu",
+                    locationType: "On-Site",
+                    jobType: "Full-time",
+                    workPoints: [
+                        "Developed web applications using Python, Django, Django REST Framework, and MySQL.",
+                        "Designed responsive web pages, integrated backend APIs, and implemented CRUD operations.",
+                        "Built a Restaurant Booking System as part of the internship using Django and MySQL.",
+                        "Strengthened knowledge of full-stack web development, REST APIs, and database design through real-world projects."
                     ]
                 }
             ]
@@ -418,269 +422,211 @@ const JobExperience: ExperienceSection = {
     ]
 }
 
-// Freenacing Experience
+// Freelancing Experience
 const FreelancingExperience: ExperienceSection = {
-    experienceSectionTitle: "Freelancing",
+    experienceSectionTitle: "Freelancing & Contributions",
     experiences: [
         {
-            orgLink: "https://southaustraliatiling.com.au/",
-            orgLogoPath: AssetPaths.WORK_SA_TILING_LOGO,
-            orgName: "South Australia Tiling",
+            orgLink: "",
+            orgLogoPath: AssetPaths.WORK_FREELANCE_LOGO,
+            orgName: "Restaurant Website",
             positions: [
                 {
-                    positionName: "Professional Freelancer",
-                    duration: "2025",
-                    location: "Adelaide, WA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Designed and developed a visually appealing website to highlight the high-quality work of a South Australian tiling and bathroom renovation business, improving their online presence.📊",
-                        "Utilized Server-Side Rendering (SSR) and Static Site Generation (SSG) to enhance search engine visibility and drive organic traffic to the website. 🚀",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://kiwifinance.com.au/",
-            orgLogoPath: AssetPaths.WORK_KIWI_LOGO,
-            orgName: "Kiwi Finance",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2025",
-                    location: "Perth, WA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Designed and developed an SEO-friendly website with financial calculators, and a custom contact form tailored to Astute Financial's requirements. 🌐📊",
-                        "Streamlined data collection and client inquiries by integrating the contact form with Google Sheets and Gmail. 📋",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://rasfinance.com.au/",
-            orgLogoPath: AssetPaths.WORK_RAS_LOGO,
-            orgName: "RAS Finance",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2024",
-                    location: "Adelaide, SA",
-                    locationType: "Hybrid",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Built a dynamic website featuring financial calculators, a CMS for articles, and a sleek contact form. 📊📝",
-                        "Streamlined client inquiries by integrating the contact form with Google Sheets and Gmail. 📧📋✨",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
+                    positionName: "Frontend Contributor",
                     duration: "2023",
-                    location: "Adelaide, SA",
+                    location: "Remote",
                     locationType: "Remote",
                     jobType: "Contract",
                     workPoints: [
-                        "Crafted a professional logo, business cards, and responsive website using Illustrator. 🎨💼",
-                        "Set up a custom domain email and Office 365 with SharePoint for seamless operations. 📧🔗",
-                        "Developed and hosted an SEO-friendly website with a contact form to boost online presence. 🌐📈",
+                        "Contributed to the frontend development of a restaurant website by implementing responsive layouts using HTML, CSS, and JavaScript.",
+                        "Enhanced the website styling, improving UI consistency, responsiveness, and overall user experience across multiple devices.",
+                        "Implemented shopping cart functionality, including adding, updating, and removing menu items from the cart.",
+                        "Worked with the development team to fix UI issues, improve usability, and ensure smooth frontend interactions.",
                     ]
                 }
             ]
-        },
+        }
     ]
 }
 
-// Internships Experience
+// Internship Experience
 const InternshipExperience: ExperienceSection = {
     experienceSectionTitle: "Internships",
     experiences: [
         {
-            orgLink: "https://asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgLink: "",
+            orgLogoPath: AssetPaths.WORK_BRAINERY_LOGO,
+            orgName: "Brainery Spot Technology",
             positions: [
                 {
-                    positionName: "UI Developer Intern",
-                    duration: "Feb 2023 - May 2023",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
-                    workPoints: [
-                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. 🚀💻",
-                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. 🌟📊✨",
-                    ]
-                },
-                {
-                    positionName: "Software Engineering Intern",
-                    duration: "Jun 2022 — Jul 2022",
-                    location: "Ahmedabad, India",
+                    positionName: "Python Full Stack Developer Intern",
+                    duration: "Apr 2023 - Oct 2023",
+                    location: "Coimbatore, Tamil Nadu",
                     locationType: "On-Site",
-                    jobType: "Full-time",
+                    jobType:  "Full-time",
                     workPoints: [
-                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
-                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
+                        "Developed full-stack web applications using Python, Django, Django REST Framework, and MySQL.",
+                        "Designed and implemented responsive web pages using HTML, CSS, JavaScript, and Bootstrap.",
+                        "Built a Restaurant Booking System with features including table reservation, menu management, and user-friendly booking workflows.",
+                        "Integrated backend APIs, performed CRUD operations, and optimized database interactions using MySQL.",
+                        "Worked collaboratively with mentors to understand software development best practices, version control using Git, and Agile development methodologies.",
                     ]
                 }
             ]
-        },
-        {
-            orgLink: "https://workxmate.com/",
-            orgLogoPath: AssetPaths.WORK_WORKXMATE_LOGO,
-            orgName: "WorkXMate Technologies Pvt. Ltd.",
-            positions: [
-                {
-                    positionName: "Angular Developer Internship",
-                    duration: "Feb 2022 — Mar 2022",
-                    location: "Noida, India",
-                    locationType: "Remote",
-                    jobType: "Part-time",
-                    workPoints: [
-                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. 🌐✔️",
-                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. 🚀📊",
-                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. 🖋️⚙️✨",
-                    ]
-                }
-            ]
-        },
+        }
     ]
 }
 
-// Community Involvement
+// Professional Highlights
 const CommunityInvolvement: ProjectSection = {
-    sectionTitle: "Community Involvement",
+    sectionTitle: "Professional Highlights",
     entities: [
         {
-            liveLink: "https://adventofcode.com/",
-            coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
-            techStack: ["Python"],
-            title: "Advent of Code 2024",
-            description: "📅 Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.🎯",
-            year: 2024,
-            githubLink: "https://github.com/dhruvilrathod/RSP/tree/master/advent_of_code",
+            coverImagePath: AssetPaths.ACHIEVEMENT_ENTERPRISE,
+            techStack: ["Angular", "TypeScript", "REST APIs"],
+            title: "Enterprise Application Development",
+            description: "💼 Developed and maintained enterprise-scale ERP applications using Angular, contributing to Accounts, Sales, Purchase, and Finance modules while optimizing UI performance and business workflows.",
+            year: 2026,
         },
+        {
+            coverImagePath: AssetPaths.ACHIEVEMENT_CHESS,
+            liveLink: "https://www.allreal.io/",
+            techStack: ["React.js", "Firebase", "ChatGPT API"],
+            title: "Chess Gaming Platform",
+            description: "♟️ Contributed to an interactive chess platform by developing responsive React.js components and integrating Firebase Authentication, ChatGPT API, and Stockfish Engine for an engaging learning experience.",
+            year: 2024,
+        },
+        {
+            coverImagePath: AssetPaths.ACHIEVEMENT_UAE,
+            techStack: ["Angular", "Client Communication"],
+            title: "International Client Collaboration",
+            description: "🌍 Worked closely with overseas clients, including UAE-based projects, delivering feature enhancements, issue resolution, and high-quality frontend solutions for production applications.",
+            year: 2026,
+        }
     ]
 }
 
-// Achievement
+// Achievements
 const AchievementInvolvement: ProjectSection = {
     sectionTitle: "Achievements",
     entities: [
         {
-            liveLink: "https://www.linkedin.com/posts/dhruvilrathod_competitiveprogramming-codingchallenges-teamwork-activity-7291965632684695553-CTqM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi05s0B8nMLyX_mC2aovn2P6w6tNr-b3AA",
-            coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
-            techStack: ["C++", "Python"],
-            title: "CPC X RSP 2025",
-            description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
-            year: 2025,
+            coverImagePath: AssetPaths.ACHIEVEMENT_TITAN,
+            techStack: ["Angular", "TypeScript", "REST APIs"],
+            title: "Enterprise ERP Development",
+            description: "🏆 Successfully contributed to the development and maintenance of the TITAN Enterprise Platform by implementing scalable Angular solutions across Accounts, Sales, Purchase, and Finance modules for business-critical operations.",
+            year: 2026,
         },
         {
-            coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
-            liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
-            // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
-            techStack: ["Cisco", "FortiGate", "ISO 270001"],
-            title: "Chancellor's Commendation Letter (2024)",
-            description: "🚀 Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
+            coverImagePath: AssetPaths.ACHIEVEMENT_CHESS,
+            liveLink: "https://www.allreal.io/",
+            techStack: ["React.js", "Firebase", "ChatGPT API", "Stockfish"],
+            title: "Chess Gaming Platform",
+            description: "♟️ Contributed to the development of an interactive chess learning platform by building responsive React.js components and integrating Firebase Authentication, ChatGPT API, and Stockfish Engine for intelligent gameplay.",
             year: 2024,
         },
+        {
+            coverImagePath: AssetPaths.ACHIEVEMENT_SIGARAM,
+            liveLink: "https://sigaram64.com/",
+            techStack: ["React.js", "Responsive UI"],
+            title: "Sigaram64 Chess Learning Platform",
+            description: "🎯 Participated in developing the Sigaram64 chess learning platform for Grandmaster Surya Ganguly, implementing frontend features and responsive user interfaces to enhance the online learning experience.",
+            year: 2024,
+        }
     ]
 }
 
-// Degrees
+// Bachelor's Degree
 const BachelorsDegree: EducationSection = {
     degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
-    gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    majorName: "Electronics & Communication Engineering",
+    duration: "Jun 2018 - May 2022",
+    universityName: "Anna University",
+    campusName: "University College of Engineering, Dindigul",
+    logoImagePath: AssetPaths.EDUCATION_ANNA_UNIVERSITY_LOGO,
+    gpa: "7.82 / 10.0",
+    websiteLink: "https://www.annauniv.edu/",
     studyPoints: [
-        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
-        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
-        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. 🚀📊",
+        "Built a strong foundation in Electronics & Communication Engineering, Digital Electronics, Communication Systems, Embedded Systems, and Microprocessors.",
+        "Studied core computer science subjects including Data Structures, Database Management Systems, Operating Systems, Computer Networks, and Object-Oriented Programming.",
+        "Completed academic projects that strengthened analytical thinking, software development fundamentals, and problem-solving skills.",
+        "Developed a strong interest in web technologies, leading to specialization in Frontend Development using Angular, React.js, TypeScript, and modern JavaScript frameworks."
     ]
 }
 
-const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
-    gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
-    studyPoints: [
-        "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
-        "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
-        "Developed strategic skills through Consultancy, Enterprise Security, and hands-on labs experience with tech-giants including Cisco and FortiGate. 🚀",
-    ]
-}
+
 
 
 
 export const AppConfig = {
-    loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
-    logoName: "Dhruvil Rathod",         // Signature font logo name in header
-    name: "Dhruvil Rathod",             // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    loaderSplashAnimation: true,
 
-    // Google Form Contact Link
-    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
+    // Header
+    logoName: "Kiruthika Ponneswaran",
+    name: "Kiruthika Ponneswaran",
+    emailId: "kiruthikaponneswaran410@gmail.com",
 
-    // Home page
-    professionalTitle: "Development | Cyber Security | Freelancing",
-    professionalSummary: "A results-driven software engineer with expertise in full-stack development of high-quality user-centric solutions in agile environments.",
-    githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
-    portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
-    socialMedia: SocialMediaLinks,      // use from above
-    aboutMe: [                          // all the sections you want to show under "What I do?". 
+    // Contact
+    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSc00VrzQiFqLqA1eyS4__mIpFS0Ml_TbMFT4To8zFyOPkkINA/viewform?usp=publish-editor",
+
+    // Home Page
+    professionalTitle: "Full-Stack Web Developer | Frontend Developer | Angular Developer | React Developer",
+
+    professionalSummary:
+        "Frontend Developer with 3+ years of experience developing enterprise web applications using Angular, React.js, and React Native. Passionate about building scalable, responsive, and user-centric applications with modern frontend technologies. Experienced in REST API integration, enterprise ERP systems, business applications, and collaborating with international clients across India and the UAE.",
+
+    githubProfile: "https://github.com/kiruthikaponneswaran",
+
+    // Change this if you forked/renamed the repository
+    portfolioRepository: "https://github.com/kiruthikaponneswaran/Angular-Master-Portfolio",
+
+    socialMedia: SocialMediaLinks,
+
+    aboutMe: [
         FullstackSection,
         CloudSection,
         DesignSection,
         DigitalSolutionSection,
     ],
 
-    // Projects page
-    projectsPageTitle: "Projects & Freelancing",    // Title of projects page
-    projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
-    projectSections: [                  // Define and add a custom section if needed
-        FreelancingProjects,
-        PersonalProjects,
+    // Projects
+    projectsPageTitle: "Projects",
+
+    projectsPageDescription:
+       "A showcase of enterprise applications and full-stack solutions built with Angular, React.js, Django, REST APIs, and modern frontend technologies, focused on performance, scalability, and exceptional user experiences.",
+    projectSections: [
+        // PersonalProjects,
+        ProfessionalProjects,      // rename FreelancingProjects -> ProfessionalProjects
     ],
 
-    // Experience page
-    experiencePageTitle: "My Works, Internships and Freelancing",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
-    experienceSections: [               // Define and add a custom section if needed
+    // Experience
+    experiencePageTitle: "Professional Experience",
+
+    experiencePageDescription:
+     "A career shaped by enterprise software development, frontend engineering, internships, and real-world client projects across diverse business domains, combining technical expertise with practical problem-solving to deliver scalable, user-focused solutions.",
+    experienceSections: [
         JobExperience,
         InternshipExperience,
-        FreelancingExperience,
+        FreelancingExperience,     // keep only if you retain the restaurant contribution
     ],
 
-    // Education page
-    educationPageTitle: "Degrees and Qualifications",
-    educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
+    // Education
+    educationPageTitle: "Education",
+
+    educationPageDescription:
+        "Academic foundation that shaped my engineering knowledge and software development career.",
+
     educationSections: [
-        MastersDegree,
         BachelorsDegree,
     ],
 
+    // Achievements
+    achievementsPageTitle: "Achievements & Professional Highlights",
 
-    // Achievements Page
-    achievementsPageTitle: "Achievements, Participation and Community Involvement",
-    achievementsPageDescription: "🚀 Milestones, Contributions & Impact: Driving Innovation, Engaging Communities, and Making a Difference 🌍",
+    achievementsPageDescription:
+      "Highlighting the milestones, enterprise solutions, technical accomplishments, and impactful projects that define my journey in software engineering and demonstrate my growth from learning to building real-world solutions.",
     achievementsSections: [
         AchievementInvolvement,
-        CommunityInvolvement,
+        // CommunityInvolvement,
     ],
 }

@@ -39,7 +39,7 @@ export class HomeComponent implements AfterViewInit {
         setTimeout(() => {
             this._globalStatsService.isSplashAnimationPlayed = true;
             this.isAnimationPlayed = true;
-        }, 3200);
+        }, 1000);
     }
 
 }
