@@ -570,7 +570,7 @@ export const AppConfig = {
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSc00VrzQiFqLqA1eyS4__mIpFS0Ml_TbMFT4To8zFyOPkkINA/viewform?usp=publish-editor",
 
     // Home Page
-    professionalTitle: "Full-Stack Web Developer | Frontend Developer | Angular Developer | React Developer",
+    professionalTitle: "Full-Stack Web Developer | Angular Developer | React Developer",
 
     professionalSummary:
         "Frontend Developer with 3+ years of experience developing enterprise web applications using Angular, React.js, and React Native. Passionate about building scalable, responsive, and user-centric applications with modern frontend technologies. Experienced in REST API integration, enterprise ERP systems, business applications, and collaborating with international clients across India and the UAE.",
